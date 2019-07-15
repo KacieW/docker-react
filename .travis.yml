@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t kacieW/docker-react -f Dockerfile.dev .
+  - docker build -t kaciew/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true kacieW/docker-react npm run test -- --coverage
+  - docker run -e CI=true kaciew/docker-react npm run test -- --coverage
