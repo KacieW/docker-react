@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <p className="App-intro">changed
+      <p className="App-intro">changed me
         </p>
     </div>
   );
